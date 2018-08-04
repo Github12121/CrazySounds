@@ -1,0 +1,64 @@
+
+/*main section*/
+#wrapper {
+    width: 100%;
+    margin: 0px;
+}
+
+
+/*navbar*/
+#navbar {
+    background-color: #233123;
+    display: table;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar ul {
+  margin: 0;
+  display: table-row;
+}
+
+#navbar li {
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+}
+
+#navbar a {
+	font-family: 'Press Start 2P', cursive;
+	color: #83bb89;
+}
+
+/*masthead section*/
+
+.masthead {
+    background-image: url("../images/terminal.gif");
+    background-size:13%;
+}
+
+.introbody {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.introcontents {
+
+    width: 50%;
+    margin: auto;
+    background-color: #fffc;
+    padding: 15px;
+    text-align: center;
+    font-family: courier;
+
+}
